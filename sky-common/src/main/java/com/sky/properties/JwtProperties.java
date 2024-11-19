@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @ConfigurationProperties(prefix = "sky.jwt")
+//见yml中的配置
 @Data
 public class JwtProperties {
 
